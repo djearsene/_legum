@@ -1,0 +1,1 @@
+<div class="dbname"><label>Base de données sélectionnée : </label><?=$_SESSION["dbname"]?></div>

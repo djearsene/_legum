@@ -1,0 +1,125 @@
+body {
+    background-color: #FFF;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    padding:10px;
+}
+
+pre#debug {
+    background-color: #CCC;
+    font-size:12px;
+    padding:20px;
+}
+
+.titre {
+    font-size:60px;
+    font-weight: bold;
+    color:#F04;
+}
+
+.soustitre {
+    font-size:30px;
+    font-weight: bold;
+    color:#04F;
+    font-style:oblique ;
+}
+
+header {
+    background-color:#DEF;
+    border:1px solid black;
+    border-radius: 10px 10px 0 0;
+    padding:10px;
+}
+
+nav {
+    background-color:#ADF;
+    padding:10px;
+    border:1px solid black;
+    display:flex;
+    flex-wrap:wrap;
+    /* Disposition du contenu sur une ligne */
+    justify-content:flex-start; 
+}
+
+nav a {
+    width:250px;
+    height:50px;
+    border:5px solid #000;      
+    border-radius: 5px;;  
+    text-align: center;
+    list-style-type: none;
+    background-color:rgb(224, 226, 241);    
+    text-decoration: none;
+    color:#345;  
+    padding-top:20px;  
+    margin:10px;
+    font-size:25px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-shadow: 2px 2px 4px rgb(109, 38, 59);;
+}
+
+nav a:active {
+    background-color:#4F4;
+    border-style:inset;
+}
+
+.actif {
+    background-color:#F44;
+    color:#000;
+    border-style:inset;
+}
+
+#main {
+    background-color: white;
+    border:1px solid #777;
+    padding:10px;
+}
+
+footer {
+    background-color:#DEF;
+    color:rgb(226, 98, 98);
+    text-align: center;
+    height:50px;
+    border:1px solid black;
+    border-radius: 0 0 10px 10px;
+    padding-top:20px;
+}
+
+table, td, th {
+    border: 1px solid #666;    
+    border-collapse: collapse;
+    padding:8px;
+}
+
+th {
+    background-color: #000;
+    color:white;
+}
+
+
+:focus {
+    border:2px dashed red;
+}
+
+#message {
+    font-size:20px;
+    color:red;
+    border:2px inset red;
+    padding:10px;
+    margin:10px;
+}
+
+div.dbname {
+    padding:10px;    
+    font-weight: bold;
+    color:#F04;
+
+}
+
+div.dbname label {
+    color:#04F;
+    font-weight: bold;
+}
