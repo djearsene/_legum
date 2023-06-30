@@ -1,4 +1,4 @@
--- Create = créer un nouvel enregistrement
+-- Create = créer un nouvel enregistrement 
 INSERT INTO  table (champ1, champ2, champ3) VALUES ("value1","value2","value3");
 insert into ville (vi_id,vi_nom) values (null,"nancy");
 
